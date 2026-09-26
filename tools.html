@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Breakup Recovery Tools: No-Contact Tracker, Urge SOS, 30-Day Challenge | ExLane</title>
+<meta name="description" content="Interactive breakup recovery tools that run entirely in your browser: no-contact day counter, urge SOS timer, 30-day glow-up challenge, journal prompts, reasons list and closure-letter generator.">
+<link rel="canonical" href="https://exlane.com/tools.html">
+<meta name="theme-color" content="#e8563f">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ExLane">
+<meta property="og:title" content="Free Breakup Recovery Tools: No-Contact Tracker, Urge SOS, 30-Day Challenge">
+<meta property="og:description" content="Interactive breakup recovery tools that run entirely in your browser: no-contact day counter, urge SOS timer, 30-day glow-up challenge, journal prompts, reasons list and closure-letter generator.">
+<meta property="og:url" content="https://exlane.com/tools.html">
+<meta property="og:image" content="https://exlane.com/assets/img/og.svg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>try{var t=localStorage.getItem('exlane-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+<!-- Google AdSense: replace the client id in tools/build.py and rebuild, then add the same id to ads.txt -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0000000000000000" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="notice-bar"><a href="https://web.works/contact" rel="noopener" target="_blank">contact, if you are interested in this website/domain name/Sponsorship/Advertisement/Partnership</a></div>
+<header class="header"><div class="wrap nav">
+  <a class="logo" href="index.html" aria-label="ExLane home"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8563f"/><stop offset="1" stop-color="#6d4be6"/></linearGradient></defs><rect width="40" height="40" rx="10" fill="url(#g)"/><path d="M8 30 L20 8 L32 30" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 8 L20 30" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="1 5"/></svg><span>Ex<em>Lane</em></span></a>
+  <ul class="menu" id="menu"><li><a href="start-here.html">Start Here</a></li><li><a href="quiz.html">Quiz</a></li><li><a href="tools.html">Tools</a></li><li><a href="articles.html">Guides</a></li><li><a href="videos.html">Videos</a></li><li><a href="stories.html">Stories</a></li><li><a href="coaching.html">Coaching</a></li><li><a href="donate.html">Support Us</a></li></ul>
+  <div class="nav-actions">
+    <button class="icon-btn" data-theme-toggle aria-label="Toggle dark mode">☾</button>
+    <a class="btn btn-primary btn-sm" href="coaching.html">Get Matched</a>
+    <button class="icon-btn burger" data-nav-toggle aria-controls="menu" aria-expanded="false" aria-label="Open menu">☰</button>
+  </div>
+</div></header>
+<main id="main">
+
+<section class="page-head"><div class="wrap"><span class="eyebrow">Tools</span><h1>Recovery tools that live in your browser</h1><p class="lead">No account. No server. Everything below is saved only on this device (you can <button class="btn btn-sm btn-ghost" id="erase-all" type="button">erase it all</button> any time).</p>
+<div class="pill-row"><a class="chip" href="#no-contact">No-Contact Tracker</a><a class="chip" href="#sos">Urge SOS</a><a class="chip" href="#glow">30-Day Challenge</a><a class="chip" href="#journal">Journal</a><a class="chip" href="#reasons">Reasons List</a><a class="chip" href="#letter">Unsent Letter</a></div></div></section>
+<section class="tight"><div class="wrap"><div class="ad-slot leaderboard" aria-label="Advertisement"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0000000000000000" data-ad-slot="0000000000" data-ad-format="horizontal" data-full-width-responsive="true"></ins><span>Advertisement</span></div></div></section>
+
+<section id="no-contact" style="padding-top:10px"><div class="wrap"><div class="tool" id="nc-tool">
+  <div class="two-col">
+    <div><span class="tag tag-brand">Tool 1</span><h2 style="margin-top:10px">No-Contact Tracker</h2><p class="muted">Set the date you went no-contact. The counter, the ring and the message update daily. If you slip, hit reset: the old streak is logged as a relapse, not erased.</p>
+      <div class="form-row"><div><label for="nc-date">No-contact start date</label><input type="date" id="nc-date"></div><div><label for="nc-goal">Goal</label><select id="nc-goal"><option value="30">30 days</option><option value="60">60 days</option><option value="90">90 days</option></select></div></div>
+      <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap"><button class="btn btn-outline btn-sm" id="nc-reset" type="button">I slipped — restart today</button><span class="muted small" style="align-self:center">Relapses logged: <b id="nc-relapses">0</b></span></div></div>
+    <div class="center"><div class="big-num" id="nc-days">—</div><div class="muted" style="margin-bottom:16px">days no-contact</div><div class="ring" id="nc-ring"><div id="nc-ring-text">0%</div></div><p id="nc-msg" style="margin-top:16px;font-weight:600"></p></div>
+  </div>
+</div></div></section>
+
+<section id="sos" style="padding-top:0"><div class="wrap"><div class="tool sos">
+  <div class="two-col">
+    <div><span class="tag" style="background:rgba(255,255,255,.2);color:#fff">Tool 2</span><h2 style="margin-top:10px">Urge SOS: 10 minutes before you text</h2><p>You don't have to not-text them forever. You have to not-text them for the next ten minutes. Start the timer; a grounding step appears every minute. Urges used: <b id="sos-count">0</b>.</p><button class="btn btn-lg" id="sos-start" type="button">Start 10-minute delay</button></div>
+    <div class="center"><div class="big-num" id="sos-timer" style="background:#fff;-webkit-background-clip:text;background-clip:text">10:00</div><p id="sos-step" style="font-weight:600;font-size:1.1rem;min-height:3.4em;margin-top:14px">Press start when your thumb is hovering over their name.</p></div>
+  </div>
+</div></div></section>
+
+<section id="glow" style="padding-top:0"><div class="wrap"><div class="tool">
+  <span class="tag tag-teal">Tool 3</span><h2 style="margin-top:10px">30-Day Glow-Up Challenge</h2><p class="muted">One concrete task a day across body, space, money, people and skills. Tap a day to see the task; mark it done. <a href="articles/glow-up-plan.html">Read the plan behind it.</a></p>
+  <div class="progress" style="margin:14px 0"><i id="glow-progress"></i></div><p class="small muted"><b id="glow-count">0</b> / 30 complete</p>
+  <div class="calendar" id="glow-cal"></div>
+  <div class="card" style="margin-top:18px"><p id="glow-task" style="font-weight:600;font-size:1.1rem"></p><button class="btn btn-teal" id="glow-toggle" type="button">Mark done</button></div>
+</div></div></section>
+
+<section class="tight"><div class="wrap"><div class="ad-slot in-article" aria-label="Advertisement"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0000000000000000" data-ad-slot="0000000000" data-ad-format="fluid" data-full-width-responsive="true"></ins><span>Advertisement</span></div></div></section>
+
+<section id="journal" style="padding-top:0"><div class="wrap"><div class="tool">
+  <div class="two-col">
+    <div><span class="tag tag-violet">Tool 4</span><h2 style="margin-top:10px">Journal prompts</h2><p class="muted">Expressive writing about a breakup, 15 minutes a few times a week, measurably reduces rumination. Prompts rotate; entries stay on this device.</p><div class="journal-prompt" id="journal-prompt"></div><button class="btn btn-outline btn-sm" id="journal-next" type="button">Another prompt</button></div>
+    <div><label for="journal-text">Your entry</label><textarea id="journal-text" placeholder="Write freely. Nobody reads this."></textarea><div style="display:flex;gap:10px;margin-top:10px;flex-wrap:wrap"><button class="btn btn-primary" id="journal-save" type="button">Save entry</button><button class="btn btn-ghost btn-sm" id="journal-clear" type="button">Delete all</button></div><p class="small muted" style="margin-top:12px">Entries on this device: <b id="journal-n">0</b></p><ul id="journal-list" class="small" style="padding-left:18px"></ul></div>
+  </div>
+</div></div></section>
+
+<section id="reasons" style="padding-top:0"><div class="wrap"><div class="tool">
+  <span class="tag tag-brand">Tool 5</span><h2 style="margin-top:10px">Reasons List</h2><p class="muted">Idealisation is the main engine of relapse. Write, in your own words, why it ended and what wasn't working. Read it when the story starts rewriting itself.</p>
+  <form id="reasons-form" class="newsletter" style="margin:0;max-width:640px"><input id="reason-input" placeholder="e.g. I was always the one apologising" aria-label="Add a reason"><button class="btn btn-primary" type="submit">Add</button></form>
+  <ol id="reasons-list" style="margin-top:16px"></ol>
+</div></div></section>
+
+<section id="letter" style="padding-top:0"><div class="wrap"><div class="tool">
+  <div class="two-col">
+    <div><span class="tag tag-violet">Tool 6</span><h2 style="margin-top:10px">Unsent closure letter</h2><p class="muted">Closure is something you give yourself. Fill in four prompts; a letter is assembled that you can keep, print, or delete. Never send it.</p>
+      <form id="letter-form" class="form"><div><label for="l-name">Their name (or a placeholder)</label><input id="l-name" name="name"></div><div><label for="l-g">I'm grateful for…</label><input id="l-g" name="grateful"></div><div><label for="l-h">What hurt was…</label><input id="l-h" name="hurt"></div><div><label for="l-l">What I learned…</label><input id="l-l" name="lesson"></div><div><label for="l-f">Where I'm going…</label><input id="l-f" name="future"></div><button class="btn btn-grad" type="submit">Write my letter</button></form></div>
+    <div><label for="letter-out">Your letter</label><textarea id="letter-out" style="min-height:320px" readonly></textarea><button class="btn btn-outline btn-sm" id="letter-copy" type="button" style="margin-top:10px">Copy</button></div>
+  </div>
+</div></div></section>
+
+<section style="padding-top:0"><div class="wrap"><div class="cta-band"><h2>Want these as a printable workbook?</h2><p>Tracker, reasons list, 30-day plan and the letter template as one PDF.</p><form class="newsletter" data-form="Workbook download (tools page)"><input type="hidden" name="_gotcha"><input type="email" name="email" placeholder="you@example.com" required aria-label="Email"><button class="btn" type="submit">Email me the workbook</button></form><div class="form-success" style="max-width:520px;margin:14px auto 0">Sent. Check your inbox.</div></div></div></section>
+
+</main>
+<footer class="footer"><div class="wrap">
+  <div class="footer-grid">
+    <div>
+      <a class="logo" href="index.html"><svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8563f"/><stop offset="1" stop-color="#6d4be6"/></linearGradient></defs><rect width="40" height="40" rx="10" fill="url(#g)"/><path d="M8 30 L20 8 L32 30" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 8 L20 30" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="1 5"/></svg><span>Ex<em>Lane</em></span></a>
+      <p class="muted" style="margin-top:12px">The fast lane past your ex. Evidence-informed breakup recovery: no-contact tools, guides, videos, a community of people who got through it, and coaches when you need one.</p>
+      <div class="crisis"><b>In crisis?</b> If you're thinking about harming yourself, contact your local emergency number or a crisis line now (US &amp; Canada: call or text <b>988</b>; UK &amp; ROI: Samaritans <b>116 123</b>; India: iCall <b>9152987821</b>). ExLane is not a substitute for professional care.</div>
+    </div>
+    <div><h4>Recover</h4><ul>
+      <li><a href="start-here.html">Start here</a></li><li><a href="quiz.html">Are you over your ex? Quiz</a></li><li><a href="tools.html">No-contact tracker &amp; tools</a></li><li><a href="articles.html">Guides</a></li><li><a href="videos.html">Videos</a></li></ul></div>
+    <div><h4>Community</h4><ul>
+      <li><a href="stories.html">Recovery stories</a></li><li><a href="stories.html#submit">Share your story</a></li><li><a href="contests.html">Contests &amp; prizes</a></li><li><a href="coaching.html">Find a coach</a></li></ul></div>
+    <div><h4>Company</h4><ul>
+      <li><a href="about.html">About</a></li><li><a href="donate.html">Support ExLane</a></li><li><a href="advertise.html">Advertise &amp; sponsor</a></li><li><a href="advertise.html#partners">Partnerships</a></li><li><a href="careers.html">Careers &amp; talent</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+    <div><h4>Legal</h4><ul>
+      <li><a href="privacy.html">Privacy policy</a></li><li><a href="terms.html">Terms of use</a></li><li><a href="disclaimer.html">Disclaimers &amp; trademark notice</a></li><li><a href="sitemap.xml">Sitemap</a></li></ul></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <span data-year>2026</span> ExLane.com. All rights reserved. Not medical, legal, or therapeutic advice.</span>
+    <span>ExLane is an independent publication and is not affiliated with any similarly named company or mark. <a href="disclaimer.html">Trademark notice</a>.</span>
+  </div>
+</div></footer>
+<div class="sticky-cta"><a class="btn btn-grad" href="quiz.html">Take the 2-minute quiz →</a></div>
+<button class="quick-exit" data-quick-exit title="Leave this site instantly (or press Esc twice)">Quick exit ✕</button>
+<div id="exit-modal" hidden style="position:fixed;inset:0;z-index:70;background:rgba(0,0,0,.55);place-items:center;padding:20px">
+  <div class="lead-panel" style="max-width:480px;width:100%;position:relative">
+    <button class="icon-btn" data-close aria-label="Close" style="position:absolute;right:12px;top:12px">✕</button>
+    <span class="eyebrow">Before you go</span>
+    <h3>Get the free 7-Day Breakup Reset</h3>
+    <p class="muted">One short email a day for a week. Practical, not preachy. Unsubscribe any time.</p>
+    <form class="form" data-form="Newsletter (exit)"><input type="hidden" name="_gotcha"><input type="email" name="email" placeholder="you@example.com" required aria-label="Email"><button class="btn btn-grad btn-block" type="submit">Send me day 1</button></form>
+    <div class="form-success">Check your inbox — day 1 is on its way.</div>
+  </div>
+</div>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/tools.js" defer></script>
+</body>
+</html>
