@@ -9,6 +9,13 @@ Static HTML/CSS/JS. No framework, no build service. The finished pages are commi
 - GitHub Pages: https://webworksa1.github.io/exlane-com/
 - Custom domain (when DNS is pointed): https://exlane.com
 
+## Publishing
+
+GitHub Pages was enabled automatically by the `gh-pages` branch (a copy of `main`). Two ways to keep it current:
+
+- **Recommended (one click):** Settings → Pages → Source: *Deploy from a branch* → Branch: **main** / **(root)** → Save. From then on every push to `main` redeploys and `gh-pages` can be deleted.
+- **Or** keep publishing from `gh-pages` by merging `main` into it after each change.
+
 ## Structure
 
 ```
@@ -30,11 +37,7 @@ ads.txt, robots.txt, sitemap.xml, site.webmanifest, 404.html, .nojekyll
 
 1. Change content in `tools/pages.py` or `tools/articles.py` (or styles/JS in `assets/`).
 2. Run `python3 tools/build.py` (Python 3 standard library only).
-3. Commit the regenerated HTML and push to `main`. GitHub Pages redeploys automatically.
-
-## Publishing (one-time)
-
-Settings → Pages → Build and deployment → Source: **Deploy from a branch** → Branch: **main** / **(root)** → Save. The site appears at the GitHub Pages URL within a minute or two.
+3. Commit the regenerated HTML and push to `main` (then see Publishing above).
 
 Optional CI build instead of committing HTML: add `.github/workflows/pages.yml` (checkout → `python3 tools/build.py` → `actions/configure-pages` → `actions/upload-pages-artifact` → `actions/deploy-pages`) and switch the Pages source to "GitHub Actions". Pushing workflow files needs a token with the `workflow` scope.
 
